@@ -16,7 +16,7 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
+    npm ci --production
     npm install
     npm run build
-    npm ci --production
   displayName: 'npm install and build'
